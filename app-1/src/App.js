@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-<<<<<<< HEAD
         <h1 className='App-title'>❄ Sub-Zero ❄</h1>
         <img className='App-subzero' src={img} width={150} alt="subzero" />
         <form>
@@ -16,14 +15,12 @@ function App() {
         {/* Utilização de componente */}
         <Botao desc='Confirmar'></Botao>
         <a>Esqueci a senha</a>
-=======
       <h1>Flamengo</h1>
         <img 
         src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/819.png"
          className="Flamengo" 
          alt="flamengo" 
          />
->>>>>>> 5bf525d1a3498ce64b4945373e1c7772b6939fd6
       </header>
     </div>
   );
