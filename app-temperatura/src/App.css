@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  list-style: none;
+}
+
+.App-header {
+  background: linear-gradient(#00BFFF, #87CEFA, #F0F8FF);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 30px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
