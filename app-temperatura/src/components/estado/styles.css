@@ -1,0 +1,33 @@
+.local {
+    background-color: #FFDEAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    gap: 30px;
+    padding: 20px;
+}
+
+.local-titulo {
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: solid 2px black;
+}
+
+.local-input {
+    font-size: 17px;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+
+.local-botao {
+    font-size: 15px;
+    padding: 5px;
+    width: 90px;
+    border: solid 3px black;
+    border-radius: 10px;
+}

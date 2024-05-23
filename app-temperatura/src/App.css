@@ -3,15 +3,12 @@
   list-style: none;
 }
 
-.App-header {
-  background: linear-gradient(#00BFFF, #87CEFA, #F0F8FF);
-  min-height: 100vh;
+.card {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  color: white;
-  gap: 30px;
+  align-items: center;
+  margin: auto;
 }
 
 @keyframes App-logo-spin {
