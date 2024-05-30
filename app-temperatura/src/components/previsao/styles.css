@@ -1,0 +1,39 @@
+.previsao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.previsao-card {
+    background-color: #DCDCDC;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.previsao-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    gap: 40px;
+}
+
+.previsao-dia {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid 3px black;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.previsao-temp {
+    font-size: 30px;
+    font-weight: bold;
+}
+

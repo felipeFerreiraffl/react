@@ -28,7 +28,7 @@
 .local-botao {
     font-size: 15px;
     padding: 5px;
-    width: 90px;
+    width: fit-content;
     border: solid 3px black;
     border-radius: 10px;
 }

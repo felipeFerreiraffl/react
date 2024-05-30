@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css"
-import { ApiClima } from "../../script/api-clima";
+import ApiClima from "../../script/api-clima"
 
 const EstadoCard = () => {
     return(
