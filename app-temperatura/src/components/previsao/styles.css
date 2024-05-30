@@ -1,39 +1,21 @@
-.previsao {
+.previsao-card {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: auto;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    gap: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    gap: 50px;
 }
 
-.previsao-card {
-    background-color: #DCDCDC;
-    width: 500px;
-    border-radius: 20px;
+.previsao-card-titulo {
+    font-size: 23px;
 }
 
-.previsao-info {
+.previsao-card-cards {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: auto;
-    gap: 40px;
+    gap: 50px;
 }
-
-.previsao-dia {
-    font-size: 20px;
-    font-weight: bold;
-    border-bottom: solid 3px black;
-    margin-bottom: 5px;
-    padding-bottom: 10px;
-}
-
-.previsao-temp {
-    font-size: 30px;
-    font-weight: bold;
-}
-
